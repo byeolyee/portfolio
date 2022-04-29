@@ -21,4 +21,16 @@ $(function () {
         autoStart: true,
         breakLines: false,
     });
-})
+});
+
+$(function () {
+    //faq-accodion
+    $('.faq-desc').eq(0).show()
+    $('.faq-title').click(function () {
+        $(this).next().stop().slideDown()
+        $(this).parent().siblings().children('.faq-desc').stop().
+            slideUp()
+        $(this).parent().addClass('active')
+        $(this).parent().siblings().removeClass('active');
+    })
+});

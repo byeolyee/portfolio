@@ -8,7 +8,7 @@
 
         .banner-content {
             overflow: hidden;
-            padding: 40px 0;
+            padding: 35px 0;
             position: relative;
 
             div {
@@ -67,7 +67,7 @@
                 transform: translateY(-50%);
                 display: flex;
                 justify-content: center;
-                align-items: flex-start;
+                align-items: center;
                 flex-direction: column;
 
                 .tab {
@@ -82,14 +82,12 @@
                         font-weight: bold;
                     }
 
-                    p {}
+                    span {
+                        border-bottom: 2px solid #fff;
+                        padding: 3px;
+                        color: #fff;
+                    }
                 }
-
-                .tab1 {}
-
-                .tab2 {}
-
-                .tab3 {}
             }
         }
     }
@@ -98,7 +96,10 @@
     input[id=tab1] {
         &:checked {
             ~.tabs .tab1 {
-                display: block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
             }
 
             ~.tab-btn label[for=tab1] {
@@ -118,7 +119,10 @@
     input[id=tab2] {
         &:checked {
             ~.tabs .tab2 {
-                display: block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
             }
 
             ~.tab-btn label[for=tab2] {
@@ -138,7 +142,10 @@
     input[id=tab3] {
         &:checked {
             ~.tabs .tab3 {
-                display: block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
             }
 
             ~.tab-btn label[for=tab3] {

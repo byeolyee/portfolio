@@ -1,24 +1,25 @@
 .welcome {
     position: relative;
-    padding-top: 120px;
-    // height: 100vh;
-    // overflow: hidden;
+    // padding-top: 120px;
+    height: 100vh;
 
-    .slideshow {
-        .slick-arrow {
-            display: none !important;
-        }
+    // .slideshow {
 
-        img {
-            outline: none;
-        }
-    }
+    //     .slick-arrow {
+    //         display: none !important;
+    //     }
+
+    //     img {
+    //         outline: none;
+    //     }
+    // }
 
     .welcome-heading {
         position: absolute;
+        margin-top: 20px;
         top: 50%;
-        transform: translateY(-50%);
-        left: 200px;
+        left: 50%;
+        transform: translate(-50%, -50%);
         text-align: center;
         width: 750px;
 
