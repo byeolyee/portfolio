@@ -568,6 +568,166 @@ header .header-inner .gnb a {
   filter: opacity(0.6);
 }
 
+.skills .skills-inner {
+  width: 1300px;
+  margin: auto;
+}
+
+.skills .skills-inner .skills-content {
+  width: 1000px;
+  margin: 10px auto;
+  padding: 20px;
+  color: #000;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item {
+  margin-bottom: 5px;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item:nth-child(1) .progress-level {
+  animation-delay: 0s;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item:nth-child(2) .progress-level {
+  animation-delay: 0.2s;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item:nth-child(3) .progress-level {
+  animation-delay: 0.4s;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item:nth-child(4) .progress-level {
+  animation-delay: 0.6s;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item:nth-child(5) .progress-level {
+  animation-delay: 0.8s;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item:nth-child(6) .progress-level {
+  animation-delay: 1s;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item:nth-child(7) .progress-level {
+  animation-delay: 1.2s;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item:nth-child(8) .progress-level {
+  animation-delay: 1.4s;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item:nth-child(9) .progress-level {
+  animation-delay: 1.6s;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item p {
+  overflow: hidden;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item p span {
+  margin: 5px;
+  font-size: 15px;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item p span:nth-child(1) {
+  float: left;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item p span:nth-child(2) {
+  float: right;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item .progress {
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.skills .skills-inner .skills-content .skills-progress .item .progress .progress-level {
+  height: 13px;
+  border-radius: 3px;
+  background: linear-gradient(to right, #f9d7d7, #ccdcf9);
+  animation-name: ani;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes ani {
+  0% {
+    width: 0;
+  }
+}
+
+.publishing {
+  font-family: "Raleway", sans-serif;
+  color: #2e2e2e;
+}
+
+.publishing .publishing-inner {
+  width: 1300px;
+  margin: auto;
+}
+
+.publishing .publishing-inner .publishing-content .publishing-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 30px 0;
+  border: 1px solid #939597;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.publishing .publishing-inner .publishing-content .publishing-item .num {
+  width: 25%;
+  font-size: 16vh;
+  font-weight: 900;
+  text-align: center;
+  color: #444444;
+}
+
+.publishing .publishing-inner .publishing-content .publishing-item .publishing-box {
+  width: 70%;
+}
+
+.publishing .publishing-inner .publishing-content .publishing-item .publishing-box .publishing-images img {
+  display: block;
+  width: 100vh;
+  margin: 0 auto;
+}
+
+.publishing .publishing-inner .publishing-content .publishing-item .publishing-box .desc {
+  margin-top: 20px;
+  border-top: 1px solid #93a9d1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.publishing .publishing-inner .publishing-content .publishing-item .publishing-box .desc div h3 {
+  font-size: 3vw;
+  font-weight: 800;
+  line-height: 1.8;
+  color: #93a9d1;
+}
+
+.publishing .publishing-inner .publishing-content .publishing-item .publishing-box .desc div p {
+  line-height: 1.8;
+}
+
+.publishing .publishing-inner .publishing-content .publishing-item .publishing-box .desc a {
+  margin: auto 10px;
+  font-size: 3vh;
+  font-weight: 700;
+  padding: 10px;
+  transition: .4s;
+}
+
+.publishing .publishing-inner .publishing-content .publishing-item .publishing-box .desc a:hover {
+  transform: translateY(-5px);
+}
+
 .faq .faq-inner {
   width: 1300px;
   margin: auto;
@@ -641,10 +801,5 @@ header .header-inner .gnb a {
 .faq .faq-inner .faq-content .image-content .btn-image:hover {
   transform: translateY(-3px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-.skills .skiils-inner {
-  width: 1300px;
-  margin: auto;
 }
 /*# sourceMappingURL=main.css.map */
