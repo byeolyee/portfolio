@@ -28,10 +28,11 @@
                     width: 70%;
 
                     .publishing-images {
+                        width: 100%;
 
                         img {
                             display: block;
-                            width: 100vh;
+                            width: inherit;
                             margin: 0 auto;
                         }
                     }
@@ -46,7 +47,7 @@
 
                         div {
                             h3 {
-                                font-size: 3vw;
+                                font-size: 2vw;
                                 font-weight: 800;
                                 line-height: 1.8;
                                 color: $color-pantone-serenity;
